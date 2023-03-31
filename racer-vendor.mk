@@ -82,7 +82,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/racer/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/racer/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/motorola/racer/proprietary/vendor/firmware/aw8695_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8695_haptic.bin \
+    vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/aw8695_haptic.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/aw8695_haptic.bin \
     vendor/motorola/racer/proprietary/vendor/firmware/aw8695_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8695_rtp.bin \
+    vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/aw8695_rtp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/aw8695_rtp.bin \
     vendor/motorola/racer/proprietary/vendor/firmware/aw8695_rtp_Argo_Navis.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8695_rtp_Argo_Navis.bin \
     vendor/motorola/racer/proprietary/vendor/firmware/aw8695_rtp_Attentive.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8695_rtp_Attentive.bin \
     vendor/motorola/racer/proprietary/vendor/firmware/aw8695_rtp_Awake.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8695_rtp_Awake.bin \
@@ -151,11 +153,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/racer/proprietary/vendor/firmware/marley-dsp2-aov-vrgain.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp2-aov-vrgain.bin \
     vendor/motorola/racer/proprietary/vendor/firmware/marley-dsp3-aov-control.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp3-aov-control.wmfw \
     vendor/motorola/racer/proprietary/vendor/firmware/samsung-boe-se77c-20033021-17110105-racer.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/samsung-boe-se77c-20033021-17110105-racer.bin \
+    vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/samsung-boe-se77c-20033021-17110105-racer.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-boe-se77c-20033021-17110105-racer.bin \
     vendor/motorola/racer/proprietary/vendor/firmware/samsung-boe-se77c-20033021-17110305-racer-pvt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/samsung-boe-se77c-20033021-17110305-racer-pvt.bin \
+    vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/samsung-boe-se77c-20033021-17110305-racer-pvt.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-boe-se77c-20033021-17110305-racer-pvt.bin \
     vendor/motorola/racer/proprietary/vendor/firmware/samsung-csot-se77c-20042009-17120108-racer.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/samsung-csot-se77c-20042009-17120108-racer.bin \
+    vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/samsung-csot-se77c-20042009-17120108-racer.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-csot-se77c-20042009-17120108-racer.bin \
     vendor/motorola/racer/proprietary/vendor/firmware/samsung-csot-se77c-20042009-17120308-racer-pvt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/samsung-csot-se77c-20042009-17120308-racer-pvt.bin \
+    vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/samsung-csot-se77c-20042009-17120308-racer-pvt.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-csot-se77c-20042009-17120308-racer-pvt.bin \
     vendor/motorola/racer/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/motorola/racer/proprietary/vendor/firmware/synaptics-tianma-s3908-20052606-313204-racer.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-tianma-s3908-20052606-313204-racer.tdat \
+    vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/synaptics-tianma-s3908-20052606-313204-racer.tdat:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/synaptics-tianma-s3908-20052606-313204-racer.tdat \
     vendor/motorola/racer/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
     vendor/motorola/racer/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
     vendor/motorola/racer/proprietary/vendor/lib/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerapostproc.so \
