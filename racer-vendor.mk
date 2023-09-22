@@ -17,53 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/racer/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml \
     vendor/motorola/racer/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/racer/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml \
-    vendor/motorola/racer/proprietary/product/lib64/libAECV2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libAECV2.so \
-    vendor/motorola/racer/proprietary/product/lib64/libFNVfbEngineHAL.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libFNVfbEngineHAL.so \
-    vendor/motorola/racer/proprietary/product/lib64/libM2FNR.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libM2FNR.so \
-    vendor/motorola/racer/proprietary/product/lib64/libSNPE.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSNPE.so \
-    vendor/motorola/racer/proprietary/product/lib64/libSoftwareISP.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSoftwareISP.so \
-    vendor/motorola/racer/proprietary/product/lib64/libarcsoft_bokehplus_image.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_bokehplus_image.so \
-    vendor/motorola/racer/proprietary/product/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_dualcam_refocus.so \
-    vendor/motorola/racer/proprietary/product/lib64/libarcsoft_picselfie_algorithm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_picselfie_algorithm.so \
-    vendor/motorola/racer/proprietary/product/lib64/libarcsoft_supernight.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_supernight.so \
-    vendor/motorola/racer/proprietary/product/lib64/libarcsoft_superportrait.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_superportrait.so \
-    vendor/motorola/racer/proprietary/product/lib64/libbg-postproc-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbg-postproc-jni.so \
-    vendor/motorola/racer/proprietary/product/lib64/libbs-depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbs-depth.so \
-    vendor/motorola/racer/proprietary/product/lib64/libc++.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++.so \
-    vendor/motorola/racer/proprietary/product/lib64/libc++_shared.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++_shared.so \
-    vendor/motorola/racer/proprietary/product/lib64/libcamerax_extension_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libcamerax_extension_jni.so \
-    vendor/motorola/racer/proprietary/product/lib64/libfn-beauty-vfb-ASIA.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfn-beauty-vfb-ASIA.so \
-    vendor/motorola/racer/proprietary/product/lib64/libfn-beauty-vfb-LATAM.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfn-beauty-vfb-LATAM.so \
-    vendor/motorola/racer/proprietary/product/lib64/libfn-beauty-vfb-US.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfn-beauty-vfb-US.so \
-    vendor/motorola/racer/proprietary/product/lib64/libfoundation.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfoundation.so \
-    vendor/motorola/racer/proprietary/product/lib64/libgg-tensorflow-lite.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgg-tensorflow-lite.so \
-    vendor/motorola/racer/proprietary/product/lib64/libgif.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgif.so \
-    vendor/motorola/racer/proprietary/product/lib64/libjpeg.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libjpeg.so \
-    vendor/motorola/racer/proprietary/product/lib64/liblenovo_panorama.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/liblenovo_panorama.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmcf-base.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-base.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmcf-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-jni.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmcf-qc-fd-offline_local.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-qc-fd-offline_local.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmmcamera_faceproc2.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmorpho_cinema_graph.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_cinema_graph.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmorpho_easy_hdr.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_easy_hdr.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmorpho_image_refiner_1_3_2_1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_image_refiner_1_3_2_1.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmorpho_image_refiner_1_4_2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_image_refiner_1_4_2.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmorpho_image_stab5.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_image_stab5.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_panorama_gp3.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_sensor_fusion.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmorpho_super_resolution.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_super_resolution.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmot-cinemagraph-engine.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-cinemagraph-engine.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmot-remosaic-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-remosaic-util.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmot-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-util.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmp-dis-v4.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmp-dis-v4.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmp-dis-v5.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmp-dis-v5.so \
-    vendor/motorola/racer/proprietary/product/lib64/libmpbase.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmpbase.so \
-    vendor/motorola/racer/proprietary/product/lib64/libqc-clearsight.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libqc-clearsight.so \
-    vendor/motorola/racer/proprietary/product/lib64/libqc-depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libqc-depth.so \
-    vendor/motorola/racer/proprietary/product/lib64/libqc-focus.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libqc-focus.so \
-    vendor/motorola/racer/proprietary/product/lib64/libqc-snpe.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libqc-snpe.so \
-    vendor/motorola/racer/proprietary/product/lib64/libsmudge_detect.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsmudge_detect.so \
-    vendor/motorola/racer/proprietary/product/lib64/libzxing-core.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libzxing-core.so \
     vendor/motorola/racer/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/racer/proprietary/system_ext/etc/public.libraries-motocamera.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-motocamera.txt \
     vendor/motorola/racer/proprietary/system_ext/lib/libmcf_native_window_helper.motocamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmcf_native_window_helper.motocamera.so \
