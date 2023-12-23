@@ -23,7 +23,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/racer/proprietary/system_ext/lib64/libmcf_native_window_helper.motocamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcf_native_window_helper.motocamera.so \
     vendor/motorola/racer/proprietary/vendor/bin/capsense_reset:$(TARGET_COPY_OUT_VENDOR)/bin/capsense_reset \
     vendor/motorola/racer/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
+    vendor/motorola/racer/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/motorola/racer/proprietary/vendor/bin/hw/motorola.hardware.audio.adspd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.audio.adspd@1.0-service \
+    vendor/motorola/racer/proprietary/vendor/bin/init.qti.chg_policy.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.chg_policy.sh \
     vendor/motorola/racer/proprietary/vendor/bin/motpsd:$(TARGET_COPY_OUT_VENDOR)/bin/motpsd \
     vendor/motorola/racer/proprietary/vendor/bin/vl53l1_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/vl53l1_daemon \
     vendor/motorola/racer/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -40,8 +42,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/racer/proprietary/vendor/etc/camera/dual_golden_tele.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dual_golden_tele.bin \
     vendor/motorola/racer/proprietary/vendor/etc/camera/dual_golden_wide.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dual_golden_wide.bin \
     vendor/motorola/racer/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
+    vendor/motorola/racer/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/motorola/racer/proprietary/vendor/etc/hdr_tm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_tm_config.xml \
+    vendor/motorola/racer/proprietary/vendor/etc/init/hw/init.mmi.charge_only.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mmi.charge_only.rc \
     vendor/motorola/racer/proprietary/vendor/etc/init/motorola.hardware.audio.adspd@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.audio.adspd@1.0-service.rc \
+    vendor/motorola/racer/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/motorola/racer/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_boe_1080p_667.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_boe_1080p_667.xml \
     vendor/motorola/racer/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_667.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_667.xml \
     vendor/motorola/racer/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_tianma_1080p_667.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_tianma_1080p_667.xml \
